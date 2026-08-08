@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-
-    <!-- Responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta
         name="description"
-        content="Portfolio of Koujuluri Veera Bhaskara Durga Prasad - Aspiring Cloud and DevOps Engineer"
+        content="Portfolio of Veera Bhaskara - Aspiring Cloud and DevOps Engineer"
     >
 
     <title>Veera Bhaskara | Cloud & DevOps Engineer</title>
@@ -18,25 +17,32 @@
 
 <body>
 
-    <!-- =========================
-         NAVIGATION
-    ========================== -->
+    <!-- ================================
+         HEADER / NAVIGATION
+    ================================= -->
+
     <header class="header">
 
         <div class="container nav-container">
 
             <a href="#home" class="logo">
-                <span>V</span> Bhaskara
+                <img
+                    src="images/devops-logo.jpeg"
+                    alt="DevOps Engineer Logo"
+                >
             </a>
 
             <nav class="navbar">
+
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#skills">Skills</a>
                 <a href="#projects">Projects</a>
                 <a href="#experience">Experience</a>
                 <a href="#education">Education</a>
+                <a href="#gallery">Gallery</a>
                 <a href="#contact">Contact</a>
+
             </nav>
 
         </div>
@@ -44,11 +50,18 @@
     </header>
 
 
+    <!-- ================================
+         MAIN CONTENT
+    ================================= -->
+
     <main>
 
-        <!-- =========================
+
+        <!-- ================================
              HERO SECTION
-        ========================== -->
+             FLEXBOX
+        ================================= -->
+
         <section id="home" class="hero">
 
             <div class="container hero-container">
@@ -60,8 +73,8 @@
                     </p>
 
                     <h1>
-                        Koujuluri Veera<br>
-                        <span>Bhaskara Durga Prasad</span>
+                        Veera Bhaskara
+                        <span>Durga Prasad</span>
                     </h1>
 
                     <h2>
@@ -70,38 +83,46 @@
 
                     <p class="hero-description">
                         Aspiring Cloud and DevOps Engineer with hands-on
-                        experience in AWS, Terraform, GitHub, Linux,
-                        and CI/CD pipelines.
+                        experience in AWS, Terraform, Docker, Linux,
+                        GitHub Actions and CI/CD pipelines.
                     </p>
+
 
                     <div class="hero-buttons">
 
-                        <a href="#projects" class="btn primary-btn">
+                        <a
+                            href="#projects"
+                            class="btn primary-btn"
+                        >
                             View Projects
                         </a>
 
-                        <a href="#contact" class="btn secondary-btn">
+                        <a
+                            href="#contact"
+                            class="btn secondary-btn"
+                        >
                             Contact Me
                         </a>
 
                     </div>
 
+
                     <div class="social-links">
 
                         <a
-                            href="https://github.com/veera_bhaskar"
+                            href="https://nova-helios.github.io/static-website/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            GitHub
+                            🌐 Portfolio
                         </a>
 
                         <a
-                            href="https://linkedin.com/in/koujuluri-veera-bhaskara-durga-prasad"
+                            href="http://www.linkedin.com/in/koujuluri-veera-bhaskara-durga-prasad-a926a7379"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            LinkedIn
+                            💼 LinkedIn
                         </a>
 
                     </div>
@@ -109,17 +130,26 @@
                 </div>
 
 
-                <div class="hero-card">
+                <!-- PROFILE IMAGE -->
 
-                    <div class="profile-circle">
-                        VB
+                <div class="hero-image">
+
+                    <div class="profile-frame">
+
+                        <img
+                            src="images/profile.jpeg"
+                            alt="Professional profile photo"
+                        >
+
                     </div>
 
-                    <h3>Cloud & DevOps</h3>
+                    <div class="hero-badge">
 
-                    <p>
-                        AWS • Terraform • CI/CD • Linux
-                    </p>
+                        <strong>Cloud</strong>
+
+                        <span>& DevOps</span>
+
+                    </div>
 
                 </div>
 
@@ -128,9 +158,11 @@
         </section>
 
 
-        <!-- =========================
+        <!-- ================================
              ABOUT SECTION
-        ========================== -->
+             CSS GRID
+        ================================= -->
+
         <section id="about" class="section about-section">
 
             <div class="container">
@@ -150,50 +182,85 @@
 
                 <div class="about-grid">
 
+
+                    <div class="about-image">
+
+                        <img
+                            src="images/devops-profile.jpeg"
+                            alt="DevOps Engineer"
+                        >
+
+                    </div>
+
+
                     <div class="about-text">
 
                         <p>
                             I am an aspiring Cloud and DevOps Engineer
                             with hands-on experience in AWS, Terraform,
-                            GitHub, Linux, and CI/CD pipelines.
+                            GitHub, Linux, Docker and CI/CD pipelines.
                         </p>
 
                         <p>
-                            My learning journey includes cloud architecture,
-                            infrastructure automation, containerization,
-                            CI/CD, security scanning, and deployment
-                            technologies.
+                            My learning journey includes cloud
+                            architecture, infrastructure automation,
+                            containerization, CI/CD, security scanning
+                            and deployment technologies.
                         </p>
 
                         <p>
-                            I am seeking an opportunity to apply my
-                            technical skills while contributing to the
-                            development of scalable cloud solutions.
+                            I am looking for opportunities where I can
+                            apply my technical skills and contribute
+                            to scalable, secure and reliable cloud
+                            solutions.
                         </p>
 
-                    </div>
+
+                        <div class="about-stats">
+
+                            <div class="stat-card">
+
+                                <strong>AWS</strong>
+
+                                <span>
+                                    Cloud Platform
+                                </span>
+
+                            </div>
 
 
-                    <div class="about-stats">
+                            <div class="stat-card">
 
-                        <div class="stat-card">
-                            <strong>AWS</strong>
-                            <span>Cloud Platform</span>
-                        </div>
+                                <strong>IaC</strong>
 
-                        <div class="stat-card">
-                            <strong>IaC</strong>
-                            <span>Terraform</span>
-                        </div>
+                                <span>
+                                    Terraform
+                                </span>
 
-                        <div class="stat-card">
-                            <strong>CI/CD</strong>
-                            <span>Automation</span>
-                        </div>
+                            </div>
 
-                        <div class="stat-card">
-                            <strong>K8s</strong>
-                            <span>Containers</span>
+
+                            <div class="stat-card">
+
+                                <strong>CI/CD</strong>
+
+                                <span>
+                                    Automation
+                                </span>
+
+                            </div>
+
+
+                            <div class="stat-card">
+
+                                <strong>Docker</strong>
+
+                                <span>
+                                    Containers
+                                </span>
+
+                            </div>
+
                         </div>
 
                     </div>
@@ -205,9 +272,11 @@
         </section>
 
 
-        <!-- =========================
+        <!-- ================================
              SKILLS SECTION
-        ========================== -->
+             CSS GRID
+        ================================= -->
+
         <section id="skills" class="section skills-section">
 
             <div class="container">
@@ -225,8 +294,8 @@
                 </div>
 
 
-                <!-- CSS GRID -->
                 <div class="skills-grid">
+
 
                     <div class="skill-card">
 
@@ -234,11 +303,14 @@
                             ☁
                         </div>
 
-                        <h3>Cloud Computing</h3>
+                        <h3>
+                            AWS Cloud
+                        </h3>
 
                         <p>
-                            AWS EC2, S3, IAM, RDS, VPC, Lambda,
-                            Route 53, CloudFront, ECS and ECR
+                            EC2, S3, IAM, RDS, VPC,
+                            Lambda, Route 53,
+                            CloudFront, ECS and ECR.
                         </p>
 
                     </div>
@@ -250,11 +322,14 @@
                             ⚙
                         </div>
 
-                        <h3>DevOps & CI/CD</h3>
+                        <h3>
+                            DevOps & CI/CD
+                        </h3>
 
                         <p>
-                            GitHub Actions, CI/CD, SonarQube,
-                            Nexus, Apache Tomcat and Docker
+                            GitHub Actions, CI/CD,
+                            SonarQube, Nexus,
+                            Apache Tomcat and Docker.
                         </p>
 
                     </div>
@@ -266,11 +341,14 @@
                             ◈
                         </div>
 
-                        <h3>Infrastructure</h3>
+                        <h3>
+                            Terraform
+                        </h3>
 
                         <p>
-                            Terraform, VPC, subnets, security
-                            groups, EC2 and cloud infrastructure
+                            Infrastructure as Code,
+                            AWS infrastructure,
+                            VPC and resource automation.
                         </p>
 
                     </div>
@@ -282,11 +360,14 @@
                             ◉
                         </div>
 
-                        <h3>Containers</h3>
+                        <h3>
+                            Kubernetes
+                        </h3>
 
                         <p>
-                            Docker, Kubernetes, Helm charts,
-                            Deployments, Services and kubectl
+                            Kubernetes deployments,
+                            services, pods,
+                            Helm and kubectl.
                         </p>
 
                     </div>
@@ -298,10 +379,12 @@
                             &lt;/&gt;
                         </div>
 
-                        <h3>Programming</h3>
+                        <h3>
+                            Programming
+                        </h3>
 
                         <p>
-                            Java and Python (Basic)
+                            Java and Python (Basic).
                         </p>
 
                     </div>
@@ -313,10 +396,13 @@
                             ◆
                         </div>
 
-                        <h3>Development Tools</h3>
+                        <h3>
+                            Development Tools
+                        </h3>
 
                         <p>
-                            Linux, Git, GitHub and React.js
+                            Linux, Git, GitHub
+                            and React.js.
                         </p>
 
                     </div>
@@ -328,9 +414,11 @@
         </section>
 
 
-        <!-- =========================
+        <!-- ================================
              PROJECTS SECTION
-        ========================== -->
+             CSS GRID
+        ================================= -->
+
         <section id="projects" class="section projects-section">
 
             <div class="container">
@@ -353,11 +441,11 @@
                 </div>
 
 
-                <!-- CSS GRID -->
                 <div class="projects-grid">
 
 
                     <!-- PROJECT 1 -->
+
                     <article class="project-card">
 
                         <div class="project-number">
@@ -380,18 +468,21 @@
                         </p>
 
                         <div class="project-tags">
+
                             <span>AWS</span>
                             <span>VPC</span>
                             <span>EC2</span>
                             <span>RDS</span>
                             <span>ELB</span>
                             <span>Auto Scaling</span>
+
                         </div>
 
                     </article>
 
 
                     <!-- PROJECT 2 -->
+
                     <article class="project-card">
 
                         <div class="project-number">
@@ -403,7 +494,7 @@
                         </div>
 
                         <h3>
-                            CI/CD Pipeline for Java Web Application
+                            CI/CD Pipeline for Java Application
                         </h3>
 
                         <p>
@@ -413,17 +504,20 @@
                         </p>
 
                         <div class="project-tags">
+
                             <span>GitHub Actions</span>
                             <span>SonarQube</span>
-                            <span>Snyk</span>
                             <span>Nexus</span>
                             <span>Tomcat</span>
+                            <span>Maven</span>
+
                         </div>
 
                     </article>
 
 
                     <!-- PROJECT 3 -->
+
                     <article class="project-card">
 
                         <div class="project-number">
@@ -439,24 +533,26 @@
                         </h3>
 
                         <p>
-                            Architected a secure and highly available
+                            Designed a secure and highly available
                             web application using AWS networking,
                             Route 53, WAF, ACM, RDS and Load Balancer.
                         </p>
 
                         <div class="project-tags">
+
                             <span>Route 53</span>
                             <span>ACM</span>
                             <span>WAF</span>
                             <span>RDS</span>
                             <span>ALB</span>
-                            <span>CloudWatch</span>
+
                         </div>
 
                     </article>
 
 
                     <!-- PROJECT 4 -->
+
                     <article class="project-card">
 
                         <div class="project-number">
@@ -474,21 +570,24 @@
                         <p>
                             Provisioned AWS infrastructure using
                             Terraform and deployed a containerized
-                            application on a Kubernetes cluster.
+                            application on Kubernetes.
                         </p>
 
                         <div class="project-tags">
+
                             <span>Terraform</span>
                             <span>AWS</span>
                             <span>Kubernetes</span>
                             <span>Helm</span>
-                            <span>kubectl</span>
+                            <span>Docker</span>
+
                         </div>
 
                     </article>
 
 
                     <!-- PROJECT 5 -->
+
                     <article class="project-card">
 
                         <div class="project-number">
@@ -505,21 +604,24 @@
 
                         <p>
                             Developed a web-based hospital management
-                            project as part of my web development
+                            system as part of my web development
                             learning journey.
                         </p>
 
                         <div class="project-tags">
+
                             <span>React.js</span>
                             <span>PHP</span>
                             <span>MySQL</span>
                             <span>XAMPP</span>
+
                         </div>
 
                     </article>
 
 
                     <!-- PROJECT 6 -->
+
                     <article class="project-card">
 
                         <div class="project-number">
@@ -541,9 +643,11 @@
                         </p>
 
                         <div class="project-tags">
+
                             <span>IoT</span>
                             <span>NodeMCU</span>
                             <span>ESP8266</span>
+
                         </div>
 
                     </article>
@@ -555,9 +659,100 @@
         </section>
 
 
-        <!-- =========================
-             EXPERIENCE SECTION
-        ========================== -->
+        <!-- ================================
+             IMAGE GALLERY
+             CSS GRID
+        ================================= -->
+
+        <section id="gallery" class="section gallery-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        MY GALLERY
+                    </p>
+
+                    <h2>
+                        DevOps Journey
+                    </h2>
+
+                    <p class="section-description">
+                        Responsive image gallery built using
+                        CSS Grid.
+                    </p>
+
+                </div>
+
+
+                <div class="gallery-grid">
+
+
+                    <div class="gallery-item gallery-large">
+
+                        <img
+                            src="images/profile.jpeg"
+                            alt="Professional profile"
+                        >
+
+                        <div class="gallery-overlay">
+
+                            <h3>
+                                Cloud & DevOps Engineer
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="gallery-item">
+
+                        <img
+                            src="images/devops-logo.jpeg"
+                            alt="DevOps Engineer Logo"
+                        >
+
+                        <div class="gallery-overlay">
+
+                            <h3>
+                                DevOps Engineering
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="gallery-item">
+
+                        <img
+                            src="images/devops-profile.jpeg"
+                            alt="DevOps profile"
+                        >
+
+                        <div class="gallery-overlay">
+
+                            <h3>
+                                Cloud Automation
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================
+             EXPERIENCE
+        ================================= -->
+
         <section id="experience" class="section experience-section">
 
             <div class="container">
@@ -597,17 +792,14 @@
                             </h4>
 
                             <p>
-                                Developed responsive and user-friendly
-                                web application components while
-                                collaborating with team members on
-                                frontend development tasks.
+                                Worked on web application development,
+                                frontend components and application
+                                testing.
                             </p>
 
                             <p>
-                                Participated in testing, debugging,
-                                and issue resolution activities to
-                                improve application functionality and
-                                user experience.
+                                Participated in debugging and resolving
+                                application issues.
                             </p>
 
                         </div>
@@ -634,17 +826,14 @@
                             </h4>
 
                             <p>
-                                Assisted in backend application
-                                development through API integration
-                                and database management activities.
+                                Assisted with backend application
+                                development, API integration and
+                                database-related activities.
                             </p>
 
                             <p>
                                 Contributed to application optimization
-                                and performance improvements while
-                                collaborating with the development team
-                                to troubleshoot and resolve backend
-                                issues.
+                                and testing.
                             </p>
 
                         </div>
@@ -658,9 +847,10 @@
         </section>
 
 
-        <!-- =========================
-             EDUCATION SECTION
-        ========================== -->
+        <!-- ================================
+             EDUCATION
+        ================================= -->
+
         <section id="education" class="section education-section">
 
             <div class="container">
@@ -699,7 +889,8 @@
                         </h4>
 
                         <p>
-                            Percentage: <strong>72.25%</strong>
+                            Percentage:
+                            <strong>72.25%</strong>
                         </p>
 
                     </div>
@@ -711,9 +902,11 @@
         </section>
 
 
-        <!-- =========================
-             CONTACT SECTION
-        ========================== -->
+        <!-- ================================
+             CONTACT
+             CSS GRID
+        ================================= -->
+
         <section id="contact" class="section contact-section">
 
             <div class="container contact-container">
@@ -729,15 +922,17 @@
                     </h2>
 
                     <p class="section-description">
-                        Interested in opportunities related to Cloud,
-                        DevOps and AWS? Feel free to connect with me.
+                        Interested in Cloud, DevOps and AWS
+                        opportunities? Feel free to connect.
                     </p>
 
                 </div>
 
 
-                <!-- FLEXBOX -->
                 <div class="contact-grid">
+
+
+                    <!-- EMAIL -->
 
                     <a
                         class="contact-card"
@@ -749,14 +944,21 @@
                         </span>
 
                         <div>
-                            <small>Email</small>
+
+                            <small>
+                                Email
+                            </small>
+
                             <strong>
                                 veerabhaskar90006@gmail.com
                             </strong>
+
                         </div>
 
                     </a>
 
+
+                    <!-- PHONE -->
 
                     <a
                         class="contact-card"
@@ -768,18 +970,25 @@
                         </span>
 
                         <div>
-                            <small>Phone</small>
+
+                            <small>
+                                Phone
+                            </small>
+
                             <strong>
                                 +91 9908988040
                             </strong>
+
                         </div>
 
                     </a>
 
 
+                    <!-- LINKEDIN -->
+
                     <a
                         class="contact-card"
-                        href="https://linkedin.com/in/koujuluri-veera-bhaskara-durga-prasad"
+                        href="http://www.linkedin.com/in/koujuluri-veera-bhaskara-durga-prasad-a926a7379"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -789,18 +998,25 @@
                         </span>
 
                         <div>
-                            <small>LinkedIn</small>
+
+                            <small>
+                                LinkedIn
+                            </small>
+
                             <strong>
-                                View Profile
+                                View LinkedIn Profile
                             </strong>
+
                         </div>
 
                     </a>
 
 
+                    <!-- PORTFOLIO -->
+
                     <a
                         class="contact-card"
-                        href="https://github.com/veera_bhaskar"
+                        href="https://nova-helios.github.io/static-website/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -810,10 +1026,15 @@
                         </span>
 
                         <div>
-                            <small>GitHub</small>
+
+                            <small>
+                                Portfolio
+                            </small>
+
                             <strong>
-                                View Projects
+                                View Portfolio
                             </strong>
+
                         </div>
 
                     </a>
@@ -827,25 +1048,26 @@
     </main>
 
 
-    <!-- =========================
+    <!-- ================================
          FOOTER
-    ========================== -->
+    ================================= -->
+
     <footer class="footer">
 
         <div class="container footer-container">
 
             <p>
-                © 2026 Koujuluri Veera Bhaskara Durga Prasad
+                © 2026 Veera Bhaskara Durga Prasad
             </p>
 
             <p>
-                Cloud & DevOps Engineer
+                Aspiring Cloud & DevOps Engineer
             </p>
 
         </div>
 
     </footer>
 
-
 </body>
+
 </html>
